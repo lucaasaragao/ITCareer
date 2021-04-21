@@ -1,0 +1,148 @@
+
+:root {
+    --color-primary: #912c4c;
+    --color-white: #ffffff
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+   margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--color-white);
+    max-width: 1500px;
+}
+
+.Box-geometric{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: var(--color-primary);
+    width: 100%;
+}
+
+.Box-geometric > .Title {
+    color: var(--color-white);
+}
+
+.Box-geometric > .Title > h2 {
+    margin-top: 30%;
+    font-size: 6em;
+}
+
+.Box-geometric > .Title > h3 {
+    margin-top: 2%;
+    font-size: 1.8em;
+}
+
+.container-information{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+}
+
+.Box-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.Box-contact > .Title-ask > h3 {
+    font-size: 2em;
+    color: var(--color-primary);
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.Box-contact > .Title-ask > h2 {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--color-primary);
+    padding-bottom: 10px;
+}
+
+.Box-contact > .Form > form > input {
+    background-color:#f5f5f5;
+    width: 400px;
+    height: 40px;
+    padding: 15px;
+    border-color: var(--color-primary);
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+}
+
+.Box-contact > .Form > form > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-primary);
+ }
+
+ .Box-contact > .Form > h3 {
+     margin-top: 20px;
+     text-align: center;
+     font-size: 1.5em;
+     opacity: 0.6;
+ }
+
+.Box-information {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 100px;
+    margin-top: 40px;
+}
+
+.Box-information 
+.Information-1 > h3,
+.Information-2 > h3,
+.Information-3 > h3 {
+    color: var(--color-primary);
+}
+
+.Box-information >
+.Information-1,
+.Information-2,
+.Information-3 {
+    width: 20%;
+    margin: auto;
+}
+
+.Box-information >
+.Information-1 > p,
+.Information-2 > p,
+.Information-3 > p {
+    line-height: 2;
+}
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: var(--color-primary);
+}
+
+.Footer > h3{
+    color: var(--color-white);
+}
+
+
+
+
+
+
