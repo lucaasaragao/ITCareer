@@ -11,6 +11,9 @@
     font-weight: 500;
     box-sizing: border-box;
 }
+.Logo{
+    z-index: 2;
+}
 
 .container{
     display: flex;
@@ -26,8 +29,16 @@
     display: flex;
     justify-content: space-between;
     padding: 100px;
-    background-color: var(--color-primary);
     width: 100%;
+    height: 450px;
+    background-color: var(--color-primary);
+}
+
+.geometric-wave{
+    width: 100%;
+    height: 30vh;
+    z-index: 1;
+    margin-top: -20px;
 }
 
 .Box-geometric > .Title {
@@ -55,7 +66,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    margin-top: -100px;
 }
 
 .Box-contact > .Title-ask > h3 {
@@ -75,7 +86,7 @@
 .Box-contact > .Form > form > input {
     background-color:#f5f5f5;
     width: 400px;
-    height: 40px;
+    height: 45px;
     padding: 15px;
     border-color: var(--color-primary);
     border-radius: 5px;
@@ -85,11 +96,12 @@
 
 .Box-contact > .Form > form > button {
     width: 100px;
-    height: 40px;
+    height: 45px;
     border-radius: 5px;
     color: var(--color-white);
     border: none;
     background-color: var(--color-primary);
+    cursor: pointer;
  }
 
  .Box-contact > .Form > h3 {
@@ -104,7 +116,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px 100px;
+    padding: 100px;
     margin-top: 40px;
 }
 
@@ -113,6 +125,10 @@
 .Information-2 > h3,
 .Information-3 > h3 {
     color: var(--color-primary);
+}
+
+.Information-3 > h3 {
+    margin-top: 20px;
 }
 
 .Box-information >
@@ -128,21 +144,27 @@
 .Information-2 > p,
 .Information-3 > p {
     line-height: 2;
+    text-align: start;
 }
 
 .Footer {
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    background-color: var(--color-primary);
+    margin: auto;
+    width: 100%;
+    /* background-color: var(--color-primary); */
+    
+}
+
+.Footer > svg{
+    margin-top: -200px;
+}
+
+.Footer-img > img{
+    width: 20px;
+    margin-left: 50%;
 }
 
 .Footer > h3{
+    margin-top: -60px;
+    margin-left: 50%;
     color: var(--color-white);
 }
-
-
-
-
-
-
