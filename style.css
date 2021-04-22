@@ -191,14 +191,14 @@
 
    .container-information > .Box-information > .Information-1 > h3{
        font-size: 20px;
-       margin-top: -110px;
+       margin-top: -20px;
        margin-right: 140px;
        width: 200px;
        flex-direction: row;
    }
    .container-information > .Box-information > .Information-2 > h3{
     font-size: 20px;
-    margin-top: -2px;
+    margin-top: -20px;
     margin-top: 20px;
     margin-right: 140px;
     width: 200px;
@@ -206,13 +206,13 @@
 
 .container-information > .Box-information > .Information-3 > h3{
     font-size: 20px;
-    margin-top: -2px;
+    margin-top: -20px;
     margin-top: 20px;
     margin-right: 140px;
     width: 200px;
 }
    
-   .geometric-wave{display: none;}
+   /* .geometric-wave{display: none;} */
 
    .Footer{
        margin-top: 70%;
@@ -222,45 +222,39 @@
 
 @media only screen and (max-device-width: 411px) {
     
-    .geometric-wave{display: none;}
+    /* .geometric-wave{display: none;} */
  
+    .Box-geometric {margin-top: -150px;}
+    .geometric-wave{margin-top: -1px;}
     .Footer{
-        margin-top: 100%;
-        background-color: var(--color-primary);
+        display: none;
+    }
+ }
+
+ @media only screen and (max-device-width: 414px) {
+    
+    /* .geometric-wave{display: none;} */
+ 
+    .Box-geometric {margin-top: -150px;}
+    .geometric-wave{margin-top: -1px;}
+    .Footer{
+        display: none;
     }
  }
 
 @media only screen and (max-device-width: 360px) {
     
-    .geometric-wave{display: none;}
- 
-    .Footer{
-        margin-top: 110%;
-        background-color: var(--color-primary);
-    }
- }
-
- @media only screen and (max-device-width: 320px) {
-
-    .Box-geometric > .Title > h2,h3{font-size: 30px; margin-top: 120px;}
-    .Box-geometric > .Title > h2{font-size: 50px;}
-    .Box-geometric > .Title > h3{font-size: 15px;}
-    .container-information > .Box-contact > .Title-ask > h3{margin-top: 120px; font-size: 15px}
-    .container-information > .Box-contact > .Title-ask > h2{font-size: 20px}
-    #email{width: 250px; margin-left: 10%;}
-    #button {margin-left: 35%; margin-top: 10px;}
-    .geometric-wave{display: none;}
-
+    /* .geometric-wave{display: none;} */
     .container-information > .Box-information > .Information-1 > h3{
         font-size: 20px;
-        margin-top: -110px;
+        margin-top: -20px;
         margin-right: 110px;
         width: 200px;
         flex-direction: row;
     }
     .container-information > .Box-information > .Information-2 > h3{
      font-size: 20px;
-     margin-top: -2px;
+     margin-top: -20px;
      margin-top: 20px;
      margin-right: 110px;
      width: 200px;
@@ -268,15 +262,56 @@
  
  .container-information > .Box-information > .Information-3 > h3{
      font-size: 20px;
-     margin-top: -2px;
+     margin-top: -20px;
+     margin-top: 20px;
+     margin-right: 110px;
+     width: 200px;
+ }
+    .Box-geometric {margin-top: -150px;}
+    .geometric-wave{margin-top: -1px;}
+    .Footer{
+        display: none;
+    }
+ }
+
+ @media only screen and (max-device-width: 320px) {
+
+    .Box-geometric {margin-top: -150px;}
+    .geometric-wave{margin-top: -1px;}
+    .Box-geometric > .Title > h2,h3{font-size: 30px; margin-top: 120px;}
+    .Box-geometric > .Title > h2{font-size: 50px;}
+    .Box-geometric > .Title > h3{font-size: 15px;}
+    .container-information > .Box-contact > .Title-ask > h3{margin-top: 120px; font-size: 15px}
+    .container-information > .Box-contact > .Title-ask > h2{font-size: 20px}
+    #email{width: 250px; margin-left: 10%;}
+    #button {margin-left: 35%; margin-top: 10px;}
+    /* .geometric-wave{display: none;} */
+
+    .container-information > .Box-information > .Information-1 > h3{
+        font-size: 20px;
+        margin-top: -20px;
+        margin-right: 110px;
+        width: 200px;
+        flex-direction: row;
+    }
+    .container-information > .Box-information > .Information-2 > h3{
+     font-size: 20px;
+     margin-top: -20px;
+     margin-top: 20px;
+     margin-right: 110px;
+     width: 200px;
+ }
+ 
+ .container-information > .Box-information > .Information-3 > h3{
+     font-size: 20px;
+     margin-top: -20px;
      margin-top: 20px;
      margin-right: 110px;
      width: 200px;
  }
  
     .Footer{
-        margin-top: 200%;
-        background-color: var(--color-primary);
+        display: none;
     }
  }
 
@@ -284,6 +319,7 @@
 
     .Box-geometric > .Title > h2{font-size: 70px;}
     .Box-geometric > .Title > h3{font-size: 20px;}
+    .geometric-wave{margin-top: -1px;}
 
     .container-information > .Box-information > .Information-1, .Information-2, .Information-3{
         display: flex;
