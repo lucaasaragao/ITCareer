@@ -104,6 +104,11 @@
     cursor: pointer;
  }
 
+ .Box-contact > .Form > form > button > a{
+     text-decoration: none;
+     color: var(--color-white);
+ }
+
  .Box-contact > .Form > h3 {
      margin-top: 20px;
      text-align: center;
